@@ -1,5 +1,8 @@
 package com.app.chatapp.models;
 
+import java.util.Date;
+
 public class ChatMessage {
-    public String senderId, receiverid, message, dateTime;
+    public String senderId, receiverId, message, dateTime;
+    public Date dateObject;
 }
