@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.app.chatapp.activities.MainActivity;
 import com.app.chatapp.activities.SignInActivity;
 
 public class SplashActivity extends AppCompatActivity {
@@ -23,7 +22,7 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(iHome);
                 finish();
             }
-        },3000);
+        },4000);
 
 
     }
